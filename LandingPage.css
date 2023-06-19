@@ -1,0 +1,466 @@
+/*styles.css*/
+
+.Header {
+    height: 35rem;
+    width: 56rem;
+    background: #1F2937;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+
+box-r { 
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+    font-family: cursive;
+    font-size: 24px;
+    color: #F9FAF8;
+    position: relative; bottom: 2.5rem; right: 1rem;
+}
+
+.Siu {
+    height: auto;
+    width: 5.5rem;
+    border-style: groove;
+    border-width: 2.5px;
+    border-color: bisque;
+    border-radius: 6px;
+    font-size: smaller;
+    font-weight: bold;
+    font-style: oblique;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #0936ff;
+    color: #f1bbdc;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    position: relative; left: .1rem; top: 32rem;
+}
+
+
+b { 
+    height: 1.5rem;
+    width: 4rem;
+    border-style: double;
+    border-width: 3px;
+    border-color: whitesmoke;
+    border-radius: 6px;
+    border-left-color: silver;
+    border-right-color: silver;
+    border-bottom: none;
+    padding: auto;
+    font-size: smaller;
+    font-weight: lighter;
+    font-style: oblique;
+    font-family: cursive;
+    background: #1F2937;
+    color: #ff00f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    position: relative; bottom: 16.2rem; left: 32rem;
+    
+}
+
+c {
+    height: 2rem;
+    width: 6rem;
+    border-style: solid;
+    border-width: 2.5px;
+    border-bottom-color: gray;
+    border-radius: 6px;
+    border-left-color: white;
+    border-right-color: white;
+    border-top: none;
+    padding: auto;
+    font-size: smaller;
+    font-weight: lighter;
+    font-style: oblique;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #1F2937;
+    color: #ff8800;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    position: relative; bottom: 15.2rem; left: 34rem;
+}
+
+d {
+    height: auto;
+    width: auto;
+    border-style: ridge;
+    border-width: 2.5px;
+    border-color: salmon;
+    border-radius: 2px;
+    border-left: none;
+    border-right: none;
+    margin-left: .5rem;
+    padding: auto;
+    font-size: smaller;
+    font-weight: lighter;
+    font-style: oblique;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: #1F2937;
+    color: wheat;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    position: relative; left: 35rem; bottom: 14.2rem;
+}
+
+
+box-7 {
+    height: 12rem;
+    width: 15rem;
+    color: #E5E7EB;
+    padding-bottom: .5rem;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10rem;
+    justify-content: center;
+    text-justify: center;
+    text-align: end;
+    align-items: center;
+    align-self: center;
+    font-size: 18px;
+    font-weight: lighter;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative; right: 14rem;
+}
+
+p1 {
+  display: flex;
+  flex-direction: column;  
+  justify-self: start;
+  align-self: end;   
+  font-weight: extra-bold;
+  color: #F9FAF8;
+  font-size: 48px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  position: relative; top: .5rem;
+}
+
+ 
+.container-img1 {
+    height: auto;
+    width: 7.5rem;
+    border-style: outset;
+    border-width: 3.5px;
+    border-radius: 12px;
+    border-color: khaki;
+    border-left-width: 4px;
+    border-top-color: rgb(6, 205, 255);
+    border-right: none;
+    border-bottom: none;
+    background: #ff00dd;
+    padding: auto;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    position: relative; top: .8rem; right: 6rem;
+}
+
+box-5 {
+    height: auto;
+    width: 26rem;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    color: #1F2937;
+    font-size: 36px;
+    align-items: center;
+    justify-content: center;
+    font-weight: extra-bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative; top: 6.5rem;
+}
+
+   
+
+.flex-container-2 {
+    height: 42rem;
+    width: 56rem;
+    background: #f2f5fd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative; 
+    margin-left: 20%;
+}
+
+
+
+.One {
+    height: auto;
+    width: 8rem;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 6px;
+    border-top-color: #ff8902;
+    border-left-color: #ff8902;
+    border-bottom-color: rgb(0, 204, 255);
+    border-right-color: rgb(0, 204, 255);
+    border-bottom-width: 2.5px;
+    border-right-width: 2.5px;
+    position: relative; right: 19.5rem; top: 8.4rem;
+}
+
+
+.One-text {
+    height: auto;
+    width: 8rem;
+    background: #ffffff;
+    text-align: center;
+    text-justify: center;
+    text-overflow: ellipsis;
+    justify-content: center;
+    border-radius: 8px;
+    margin-top: 1rem;
+    display: flex; 
+    flex-direction: column;
+    align-self: start;
+    color: #0105ff;
+    font-style: normal; 
+    font-size: 10px;
+    font-weight: bolder;
+    font-family: cursive;  
+    position: relative; left: 4.5rem; top: 8rem;
+}
+
+
+.Two {
+    height: auto;
+    width: 8rem;
+    border-style: solid;
+    border-width: 3.5px;
+    border-radius: 10px;
+    border-color: #ff9900;
+    border-bottom-color: silver;
+    border-right-color: silver;
+    border-top-color: white;
+    border-left-color: white;
+    position: relative; right: 6.5rem; bottom: .2rem;
+    
+}    
+
+.Two-script {
+    height: auto;
+    width: 8rem;
+    background: #F9FAF8;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: #ff0404;
+    padding: auto;
+    font-style: oblique; 
+    font-size: 10px;
+    font-weight: lighter;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative; right: 6.5rem; bottom: .1rem;
+}
+
+.Three {
+    height: auto;
+    width: 8rem;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 7px;
+    border-color: #ff1e00;
+    border-left: none;
+    border-bottom: none;
+    position: relative; bottom: 8.5rem; left: 6.5rem;
+   
+    
+}
+
+.Three-doc {
+    height: auto;
+    width: 8rem;
+    background: #F9FAF8;
+    border-radius: 12px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: end;
+    text-align: end;
+    justify-content: center;
+    padding: auto;
+    color: #a200ff;
+    font-style: initial; 
+    font-size: 10px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative; bottom: 8.3rem; left: 6.5rem;
+}
+
+
+.Four {
+    height: auto;
+    width: 8rem;
+    border-style: solid;
+    border-width: 3.5px;
+    border-radius: 7.5px;
+    border-color: #f800e3;
+    border-top-color: cyan;
+    border-bottom-color: cyan;
+    border-bottom-width: 1.8px;
+    border-left-width: 2.5px;
+    border-right-width: 4px;
+    position: relative; left: 19.5rem; bottom: 16.7rem;
+}
+
+.Four-phrase {
+    height: auto;
+    width: 8rem;
+    background: #F9FAF8;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-self: end;
+    margin-top: 1rem;
+    text-justify: center;
+    color: #ff00ea;
+    padding: auto;
+    font-style: italic; 
+    font-size: 10px;
+    font-weight: lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative; bottom: 16.5rem; right: 4.5rem;
+}
+
+
+container-0 {
+    height: 15rem;
+    width: 56rem;
+    padding: auto;
+    display: flex;
+    flex-direction: row;
+    background: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    color: #1F2937;
+    font-weight: xlight;
+    font-size: 36px;
+    font-style: italic;
+    position: relative; bottom: 12rem; 
+}
+
+container-4 {
+    height: 5.5rem;
+    width: 36.5rem;
+    border-radius: 5px;
+    background: #3882F6;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative; left: .5rem; bottom: 8.5rem;
+}
+
+
+p2 {
+    font-size: small;
+    font-style: oblique;
+    font-weight: lighter;
+    color: white; 
+    position: relative; right: 3.8rem; bottom: .8rem;
+}
+
+h5 {
+    color: lemonchiffon;
+    display: flex;
+    flex-direction: row;
+    align-self: start;
+    padding-left: 1.5px;
+    font-size: normal;
+    font-style: initial;
+    font-weight: bolder;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative; top: .6rem; left: 3.5rem;
+}
+
+h6 {
+    color: chocolate;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-self: center;
+    font-style: oblique;
+    font-size: small;
+    font-weight: bold;
+    font-family: cursive;
+    position: relative; top: 2.7rem; right: .5rem;
+}
+
+button {
+    height: 20px;
+    width: 70px;
+    border-width: 1.7px;
+    border-radius: 6px;
+    border-color: whitesmoke;
+    background-color: #3882F6;
+    justify-self: center;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: xx-small;
+    font-weight: lighter;
+    font-style: initial;
+    font-family: cursive;
+    position: relative; left: 13rem; bottom: 2rem;
+}
+
+
+.footer {
+  height: 30px;
+  width: 56rem;
+  border-style: solid;
+  border-width: 2.5px;
+  border-color: chartreuse;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  background: #1F2937;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  color: snow;
+  font-size: x-small;
+  font-weight: light;
+  font-style: initial;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  text-justify: center;
+  position: relative; top: .1rem; left: 19.2rem;
+}
+
+    
+    
